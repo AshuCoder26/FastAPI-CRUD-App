@@ -1,0 +1,12 @@
+Step1: I created a virtual environment using the command "python -m venv .venv" to ensure that my specific tasks are saved in that specific environment.
+Step2: Than i activate the virtual environment usin the command ".\.venv\scripts\activate" tp get things ready.
+Step3: Than I installed Fastapi using the command "pip installed Fastapi".
+Step4: Afterwards, I imported the package "from fastapi import FastAPI".
+Step5: Then I created the decorator app = FastAPI()
+Step6: To define Path @app.get("/")
+Step7: Then I used the command "pip install uvicorn" to install uvicorn which is a server used to test and run fastapi applications.
+Step8: Then I used the command "uvicorn main:app --reload" to make the server automatically refresh anytime you make changes.
+Step9: In FastAPI routes are used to define URLs that your applications should respond to.
+Step10: Then I write the body "Post Request" it requests data from frontend user and you want to store it to the database.
+Step11: Then I installed Pydantic to use the BaseModel feature for creating the schema.
+Step12: All my post request including create, update, delete are working successfully in the browser daatbase(fake database).
